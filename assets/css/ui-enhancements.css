@@ -1,0 +1,346 @@
+
+
+
+.text-xs   { font-size: var(--text-xs);   line-height: 1.45; }
+.text-sm   { font-size: var(--text-sm);   line-height: 1.5;  }
+.text-base { font-size: var(--text-base); line-height: 1.6;  }
+.text-md   { font-size: var(--text-md);   line-height: 1.55; }
+.text-lg   { font-size: var(--text-lg);   line-height: 1.4;  }
+.text-muted { color: var(--text-muted); }
+.text-secondary { color: var(--text-secondary); }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+.leading-relaxed { line-height: 1.7; }
+
+
+.meta-line {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+.subtitle-line {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+.page-intro h1 {
+  font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+  margin-bottom: 6px;
+}
+.page-intro p {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+}
+
+
+.card,
+.event-card,
+.dash-stat,
+.dashboard-panel,
+.admin-form-card,
+.stat-card,
+.filter-bar {
+  box-shadow: var(--shadow-sm);
+}
+.stat-card-value {
+  font-size: 2.35rem;
+}
+.stat-card-label {
+  font-size: var(--text-sm);
+}
+
+.card-body { padding: 32px; }
+.event-card-body { padding: 24px; }
+.event-card-footer { padding: 18px 24px; }
+
+
+.btn {
+  min-height: 44px;
+  padding: 12px 24px;
+  font-size: var(--text-base);
+}
+.btn-sm {
+  min-height: 38px;
+  padding: 9px 18px;
+  font-size: var(--text-sm);
+}
+.btn-lg {
+  min-height: 52px;
+  padding: 16px 36px;
+  font-size: var(--text-md);
+}
+
+
+.form-control {
+  padding: 14px 18px;
+  font-size: var(--text-base);
+  border-radius: var(--radius);
+}
+.form-label {
+  font-size: var(--text-sm);
+  margin-bottom: 10px;
+}
+.form-help {
+  font-size: var(--text-sm);
+}
+
+
+thead th {
+  padding: 16px 20px;
+  font-size: var(--text-xs);
+}
+tbody td {
+  padding: 16px 20px;
+  font-size: var(--text-base);
+}
+
+
+.event-card-title {
+  font-size: var(--text-lg);
+  line-height: 1.35;
+}
+.event-card-info-item {
+  font-size: var(--text-sm);
+}
+
+
+.hero {
+  padding: 110px 24px 90px;
+}
+.hero p {
+  font-size: var(--text-lg);
+  max-width: 640px;
+}
+.hero-eyebrow {
+  font-size: var(--text-sm);
+  padding: 8px 18px;
+}
+.hero-stat-label {
+  font-size: var(--text-sm);
+}
+.section-subtitle {
+  font-size: var(--text-md);
+  max-width: 600px;
+}
+.section-eyebrow {
+  font-size: var(--text-sm);
+}
+
+
+.auth-card {
+  max-width: 480px;
+  padding: 48px;
+}
+.auth-title {
+  font-size: 1.85rem;
+}
+.auth-subtitle {
+  font-size: var(--text-base);
+}
+
+
+.alert {
+  font-size: var(--text-base);
+  padding: 16px 20px;
+}
+
+
+.badge {
+  font-size: var(--text-xs);
+  padding: 5px 12px;
+}
+
+
+.navbar-inner {
+  height: 76px;
+}
+.navbar-nav a {
+  font-size: var(--text-base);
+  padding: 10px 16px;
+}
+.navbar-brand-name {
+  font-size: 1.35rem;
+}
+.navbar-user {
+  font-size: var(--text-sm);
+}
+
+
+.footer-brand p,
+.footer-links a {
+  font-size: var(--text-base);
+}
+.footer-heading {
+  font-size: var(--text-sm);
+}
+.footer-bottom {
+  font-size: var(--text-sm);
+}
+
+
+.admin-sidebar {
+  width: 280px;
+}
+.sidebar-brand {
+  font-size: 1.125rem;
+}
+.sidebar-user-name {
+  font-size: var(--text-base);
+}
+.sidebar-user-role {
+  font-size: var(--text-xs);
+}
+.sidebar-section-label {
+  font-size: var(--text-xs);
+  padding: 14px 12px 8px;
+}
+.sidebar-link {
+  font-size: var(--text-base);
+  padding: 12px 14px;
+  gap: 12px;
+}
+.sidebar-badge {
+  font-size: var(--text-xs);
+  padding: 3px 9px;
+}
+.admin-topbar {
+  height: 72px;
+  padding: 0 36px;
+}
+.admin-page-title {
+  font-size: var(--text-lg);
+}
+.admin-content {
+  padding: 36px 40px;
+}
+.admin-content-header h1 {
+  font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+}
+.admin-content-header p {
+  font-size: var(--text-base);
+}
+.dash-stat-value {
+  font-size: 2.5rem;
+}
+.dash-stat-label {
+  font-size: var(--text-sm);
+}
+.panel-title {
+  font-size: var(--text-lg);
+}
+.panel-header,
+.panel-body {
+  padding: 22px 28px;
+}
+.activity-text {
+  font-size: var(--text-base);
+}
+.activity-time {
+  font-size: var(--text-sm);
+}
+.quick-stat-label,
+.quick-stat-value {
+  font-size: var(--text-base);
+}
+.form-section-title {
+  font-size: var(--text-sm);
+}
+
+
+.page-content {
+  font-size: var(--text-base);
+}
+.page-content .text-muted-inline,
+.page-content [class*="meta"] {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+
+
+a:focus-visible,
+button:focus-visible,
+.form-control:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+
+p, .event-card-info-item, tbody td {
+  color: var(--text-secondary);
+}
+
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 14px;
+}
+.category-card {
+  padding: 20px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  transition: all var(--transition);
+}
+.category-card:hover {
+  border-color: var(--glass-border-hover);
+  transform: translateY(-2px);
+}
+.category-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.category-card-name {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.how-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+.how-step-card {
+  padding: 32px 28px;
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  height: 100%;
+}
+.how-step-icon {
+  width: 56px;
+  height: 56px;
+  background: var(--grad-primary);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 18px;
+}
+.how-step-label {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.how-step-card h3 {
+  font-size: var(--text-lg);
+  margin-bottom: 10px;
+}
+.how-step-card p {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+}

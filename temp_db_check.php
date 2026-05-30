@@ -1,0 +1,1 @@
+<?php\ntry {\n   = new PDO('mysql:host=localhost;dbname=campus_events;charset=utf8mb4','root','');\n   = ->query('SELECT id,email,role,is_active FROM users WHERE email = \'admin@cvsu.edu.ph\'');\n   = ->fetch(PDO::FETCH_ASSOC);\n  echo  ? json_encode() : 'NOT_FOUND';\n} catch (Exception ) {\n  echo 'ERROR: ' . ->getMessage();\n}\n
