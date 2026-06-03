@@ -35,6 +35,7 @@ This repository contains a simple native PHP application for managing campus eve
 The application uses a seeded admin account in `database/schema.sql`.
 
 - Email: `admin@cvsu.edu.ph`
+- Password: `Password123`
 
 ## Organizer Registration Workflow
 

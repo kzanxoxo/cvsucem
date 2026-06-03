@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS activity_log (
 ) ENGINE=InnoDB;
 
 INSERT INTO users (name, email, password, role) VALUES
-    ('CvSU System Admin', 'admin@cvsu.edu.ph', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
+    ('CvSU System Admin', 'admin@cvsu.edu.ph', 'Password123', 'admin');
 
 INSERT INTO events (organizer_id, title, description, category_id, event_date, start_time, end_time, location, max_participants, image, status, qr_token, is_featured) VALUES
     (1, 'CvSU Annual Tech Summit 2026',
