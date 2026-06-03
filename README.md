@@ -24,11 +24,11 @@ This repository contains a simple native PHP application for managing campus eve
 
 ## Setup
 
-1. Copy the project into your web server root, e.g. `C:\xampp\htdocs\campus-events`.
+1. Copy the project into your web server root, e.g. `C:\xampp\htdocs\cvsucem`.
 2. Create a database named `campus_events`.
 3. Import the SQL schema from `database/schema.sql` into the database.
 4. Update database settings in `config/database.php` if needed.
-5. Open the site at `http://localhost/campus-events`.
+5. Open the site at `http://localhost/cvsucem`.
 
 ## Default Admin Access
 

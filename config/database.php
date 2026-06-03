@@ -10,7 +10,7 @@ define('SITE_NAME', 'CvSU Events');
 define('SITE_SHORT', 'CvSU');
 define('UNIVERSITY_NAME', 'Cavite State University');
 define('UNIVERSITY_TAGLINE', 'Truth | Excellence | Service');
-define('SITE_URL', 'http://localhost/campus-events');
+define('SITE_URL', 'http://localhost/cvsucem');
 define('CONTACT_EMAIL', 'janrienn.porto@cvsu.edu.ph');
 define('ADMIN_EMAIL', 'admin@cvsu.edu.ph');
 define('UPLOAD_DIR', __DIR__ . '/../assets/images/uploads/');

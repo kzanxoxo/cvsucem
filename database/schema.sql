@@ -83,16 +83,16 @@ CREATE TABLE IF NOT EXISTS activity_log (
 INSERT INTO users (name, email, password, role) VALUES
     ('CvSU System Admin', 'admin@cvsu.edu.ph', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
 
-INSERT INTO events (organizer_id, title, description, category_id, event_date, start_time, end_time, location, max_participants, status, qr_token, is_featured) VALUES
+INSERT INTO events (organizer_id, title, description, category_id, event_date, start_time, end_time, location, max_participants, image, status, qr_token, is_featured) VALUES
     (1, 'CvSU Annual Tech Summit 2026',
      'The flagship technology event at Cavite State University. Keynotes, hackathon booths, and industry talks for IT and engineering students across all campuses.',
-     4, '2026-06-15', '08:00:00', '17:00:00', 'CvSU International Convention Center, Indang', 400, 'upcoming', SHA2(CONCAT('cvsu-tech-', RAND()), 256), 1),
+     4, '2026-06-15', '08:00:00', '17:00:00', 'CvSU International Convention Center, Indang', 400, 'tech.jpg', 'upcoming', SHA2(CONCAT('cvsu-tech-', RAND()), 256), 1),
     (1, 'Lions Week Cultural Festival',
      'Celebrate CvSU spirit with performances, exhibits, and food fairs from student organizations. Open to all colleges.',
-     3, '2026-06-20', '09:00:00', '18:00:00', 'University Oval, Indang Campus', 600, 'upcoming', SHA2(CONCAT('cvsu-culture-', RAND()), 256), 1),
+     3, '2026-06-20', '09:00:00', '18:00:00', 'University Oval, Indang Campus', 600, 'culture.jpg', 'upcoming', SHA2(CONCAT('cvsu-culture-', RAND()), 256), 1),
     (1, 'Inter-College Sports Fest 2026',
      'Basketball, volleyball, badminton, and track events. Represent your college and compete for the CvSU championship trophy.',
-     2, '2026-07-01', '07:00:00', '17:00:00', 'CvSU Gymnasium, Indang Campus', 500, 'upcoming', SHA2(CONCAT('cvsu-sports-', RAND()), 256), 0),
+     2, '2026-07-01', '07:00:00', '17:00:00', 'CvSU Gymnasium, Indang Campus', 500, 'sports.jpg', 'upcoming', SHA2(CONCAT('cvsu-sports-', RAND()), 256), 0),
     (1, 'Student Wellness & Mental Health Seminar',
      'Free seminar on student wellness with guidance counselors and resource booths. Sponsored by the Office of Student Affairs.',
-     5, '2026-06-10', '13:00:00', '16:00:00', 'Lecture Hall, College of Arts and Sciences', 150, 'upcoming', SHA2(CONCAT('cvsu-wellness-', RAND()), 256), 0);
+     5, '2026-06-10', '13:00:00', '16:00:00', 'Lecture Hall, College of Arts and Sciences', 150, 'wellness.jpg', 'upcoming', SHA2(CONCAT('cvsu-wellness-', RAND()), 256), 0);
